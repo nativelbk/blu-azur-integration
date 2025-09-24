@@ -1,8 +1,20 @@
 @import "tailwindcss";
 @theme {
   --color-blue: #4097ff;
+  --color-blue-tranparent: rgba(64, 151, 255, 0.5);
+  --color-footer-bg: #2161ae;
+  --color-black-title: #121212;
+  --color-black-text: #020202;
 }
 
 button:hover {
   cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  /* max-width: 1400px; */
+  margin: 0 auto;
+  padding: 40px 60px;
+  box-sizing: border-box;
 }
