@@ -11,7 +11,7 @@ import Reservation from "./components/Reservation/Reservation";
 
 function App() {
   return (
-    <>
+    <section className="relative">
       <Header />
       <PrivateAppartment />
       <Activites />
@@ -21,7 +21,7 @@ function App() {
       <Reservation />
       <Contact />
       <Footer />
-    </>
+    </section>
   );
 }
 

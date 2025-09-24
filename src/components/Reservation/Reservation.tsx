@@ -7,15 +7,15 @@ const Reservation: React.FC = () => {
       className="relative w-full overflow-hidden  bg-cover bg-center"
       style={{ backgroundImage: "url('/assets/reservation.png')" }}
     >
-      <div className="relative h-[70vh] flex items-center justify-center text-center text-white">
-        <img
+      <div className="absolute inset-0 h-full">
+        <img className="h-full" src="/assets/rectangle.png" />
+      </div>
+      <div className="relative h-[70vh] container flex items-center justify-center text-center text-white">
+        {/* <img
           src="/reservation-bg.jpg"
           alt="Piscine Blu Azur"
           className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div className="absolute inset-0">
-          <img src="/assets/rectangle.png" />
-        </div>
+        /> */}
 
         <div className="relative text-shadow-lg flex flex-col justify-center items-center  z-10 max-w-2xl mx-auto px-6">
           <h2 className="text-3xl lg:text-6xl font-bold text-shadow-lg mb-4">

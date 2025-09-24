@@ -30,7 +30,7 @@ export const Carousel: React.FC<CarouselProps> = ({
   if (!Array.isArray(images) || images.length === 0) return null;
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto overflow-hidden">
+    <div className="relative w-full max-w-4xl mx-auto overflow">
       <div
         className={`relative flex items-center justify-center ${heightClass}`}
       >

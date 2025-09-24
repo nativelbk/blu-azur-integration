@@ -4,16 +4,17 @@ import { CircleChevronRight } from "lucide-react";
 const Localisation: React.FC = () => {
   return (
     <section
+      id="localisation"
       className=" bg-center bg-cover "
       style={{ backgroundImage: "url('/assets/map_bg.png')" }}
     >
-      <div className="container flex flex-col md:flex-row items-center justify-between gap-8   bg-cover bg-center">
-        <div className="md:w-1/2">
-          <h2 className="text-2xl md:text-6xl font-light text-black-title leading-snug">
+      <div className="container flex flex-col xl:flex-row items-center justify-between gap-8   bg-cover bg-center">
+        <div className=" flex flex-col xl:w-1/2 max-xl:items-center max-lg:w-full max-xl:w-[75%]">
+          <h2 className="text-2xl md lg:text-5xl max-xl:text-center  xl:text-6xl font-light text-black-title leading-snug">
             Où se trouve Blu Azur à <br />
             <span className="font-bold">Saint-Raphaël ?</span>
           </h2>
-          <p className="mt-4 text-black-text text-lg leading-relaxed">
+          <p className="mt-4 text-black-text text-lg text-justify font-semibold leading-relaxed">
             Blu Azur est idéalement située entre Saint-Tropez et Cannes, au cœur
             de l’une des plus belles stations balnéaires de France. Nos
             appartements se trouvent dans un domaine privé sécurisé, entouré de
@@ -26,7 +27,7 @@ const Localisation: React.FC = () => {
             journée.
           </p>
 
-          <button className="mt-6 px-6 py-4 border-2 text-lg border-blue w-1/2 flex justify-around items-center text-blue font-semibold rounded-full hover:bg-blue-500 hover:text-white transition">
+          <button className="mt-6 px-6 py-4 border-2 text-lg border-blue w-1/2 flex max-sm:w-3/4 justify-around items-center text-blue font-semibold rounded-full hover:text-white transition">
             Comment s’y rendre ? <CircleChevronRight color="#4097ff" />
           </button>
         </div>
