@@ -3,6 +3,7 @@
   --color-blue: #4097ff;
   --color-blue-tranparent: rgba(64, 151, 255, 0.5);
   --color-footer-bg: #2161ae;
+  --color-navbar-bg: rgba(0, 0, 0, 0.199);
   --color-black-title: #121212;
   --color-black-text: #020202;
 }
@@ -13,7 +14,7 @@ button:hover {
 
 .container {
   width: 100%;
-  /* max-width: 1400px; */
+  max-width: 1750px;
   margin: 0 auto;
   padding: 40px 60px;
   box-sizing: border-box;
@@ -22,5 +23,6 @@ button:hover {
 @media screen and (max-width: 1540px) {
   .full-width {
     width: 100%;
+    color: rgba(0, 0, 0, 0.199);
   }
 }
