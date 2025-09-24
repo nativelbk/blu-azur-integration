@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <header className="relative ">
       <div
-        className="relative h-screen bg-cover bg-center"
+        className="relative h-screen max-lg:h-fit bg-cover bg-center"
         style={{ backgroundImage: "url('/assets/image-background.png')" }}
       >
-        <div className="absolute inset-0 bg-black/50 z-10"></div>
+        <div className="absolute inset-0 bg-black/70 z-10"></div>
 
         <div className="relative z-20">
           <Navbar />
