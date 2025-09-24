@@ -1,5 +1,5 @@
 import React from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 
 interface NavigationButtonsProps {
   onPrevious: () => void;
@@ -7,7 +7,6 @@ interface NavigationButtonsProps {
 }
 
 export const NavigationButtons: React.FC<NavigationButtonsProps> = ({
-  onPrevious,
   onNext,
 }) => {
   return (
