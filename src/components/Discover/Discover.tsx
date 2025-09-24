@@ -7,7 +7,6 @@ const Discover: React.FC = () => {
       style={{ backgroundImage: "url('/assets/discover_bg.png')" }}
     >
       <div className="container grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        {/* Image réduite à gauche */}
         <div className="flex justify-center">
           <div className="rounded-lg overflow-hidden shadow-lg w-3/4 max-w-sm">
             <img
@@ -18,7 +17,6 @@ const Discover: React.FC = () => {
           </div>
         </div>
 
-        {/* Texte à droite */}
         <div className="text-white">
           <h2 className="text-3xl lg:text-5xl font-light text-right  mb-4">
             Un point de départ idéal pour &nbsp;
