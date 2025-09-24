@@ -18,3 +18,9 @@ button:hover {
   padding: 40px 60px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1540px) {
+  .full-width {
+    width: 100%;
+  }
+}
