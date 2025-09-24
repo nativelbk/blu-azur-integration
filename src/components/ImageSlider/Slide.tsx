@@ -31,7 +31,7 @@ export const Slide: React.FC<SlideProps> = ({
         alt={image.alt}
         className={
           customImageClass ||
-          "w-64 h-40 xs:w-72 xs:h-44 sm:w-80 sm:h-48 md:w-96 md:h-56 lg:w-[28rem] lg:h-64 xl:w-[32rem] xl:h-72 object-cover rounded-lg "
+          "w-48 h-32 xs:w-56 xs:h-36 sm:w-64 sm:h-40 md:w-72 md:h-44 lg:w-80 lg:h-48 xl:w-96 xl:h-56 object-cover rounded-lg"
         }
       />
     </div>

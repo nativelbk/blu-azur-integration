@@ -30,6 +30,7 @@ const Activites: React.FC = () => {
 
   return (
     <section
+      id="activity"
       className="relative bg-blue-500 text-white bg-cover bg-center px-6 py-16"
       style={{ backgroundImage: "url('/assets/piscine_2.png')" }}
     >

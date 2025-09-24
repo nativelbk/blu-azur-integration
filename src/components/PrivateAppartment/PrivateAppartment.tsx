@@ -17,8 +17,11 @@ const images: ImageItem[] = [
 
 const PrivateAppartment: React.FC = () => {
   return (
-    <section className="flex flex-col 2xl:flex-row items-center justify-between gap-8 lg:gap-12 container px-4 py-8 md:py-16 lg:py-20">
-      <div className="w-full 2xl:w-1/2">
+    <section
+      id="about"
+      className="flex flex-col 2xl:flex-row items-center justify-between gap-8 lg:gap-12 container px-4 py-8 md:py-16 lg:py-20"
+    >
+      <div className="w-full 2xl:w-2/5">
         <h2
           className="
       text-2xl sm:text-3xl md:text-5xl lg:text-4xl xl:text-5xl
@@ -78,20 +81,11 @@ const PrivateAppartment: React.FC = () => {
         </ul>
       </div>
 
-      <div className="full-width md:w-1/2 flex justify-center mt-6 md:mt-0">
+      <div className="w-full 2xl:w-[30%] flex justify-center items-center mt-6 2xl:mt-0">
         <Carousel
           images={images}
-          customImageClass="h-3/4 max-[1532px]:rounded-[30px] w-[71%] rounded-[100px] "
-          heightClass="
-            h-64
-            xs:h-72
-            sm:h-80
-            md:h-[28rem]
-            lg:h-[36rem]
-            xl:h-[44rem]
-            2xl:h-[52rem] 
-            rounded-2xl 
-          "
+          customImageClass="w-full h-full max-w-4xl object-cover rounded-2xl shadow-lg"
+          heightClass="h-64 xs:h-72 sm:h-80 md:h-96 lg:h-[28rem] xl:h-[32rem] 2xl:h-[36rem]"
         />
       </div>
     </section>

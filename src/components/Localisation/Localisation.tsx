@@ -4,6 +4,7 @@ import { CircleChevronRight } from "lucide-react";
 const Localisation: React.FC = () => {
   return (
     <section
+      id="localisation"
       className=" bg-center bg-cover "
       style={{ backgroundImage: "url('/assets/map_bg.png')" }}
     >
