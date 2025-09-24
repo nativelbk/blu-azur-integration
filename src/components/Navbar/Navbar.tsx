@@ -34,9 +34,9 @@ const Navbar: React.FC = () => {
               Réservé
             </button>
           </li>
-          <li>
+          {/* <li>
             <img src="/assets/menu.png" className="w-10" alt="menu" />
-          </li>
+          </li> */}
         </ul>
 
         <div className="lg:hidden flex items-center space-x-4">

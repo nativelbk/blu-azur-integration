@@ -98,7 +98,7 @@ const Experiences: React.FC = () => {
                 <p className="text-sm mb-3 opacity-90">{card.description}</p>
 
                 {card.linkText && (
-                  <button className="mt-6 px-6 w-full border-2 text-sm p-2 border-blue flex justify-around items-center text-blue font-semibold rounded-full hover:bg-blue-500 hover:text-white transition">
+                  <button className="mt-6 px-6 w-full border-2 text-sm p-2 border-blue flex justify-around items-center text-blue font-semibold rounded-full  transition">
                     {card.linkText} <CircleChevronRight color="#4097ff" />
                   </button>
                 )}
