@@ -48,15 +48,15 @@ const Experiences: React.FC = () => {
 
   return (
     <section
-      className="relative w-full py-16 px-6 lg:px-12 bg-white/70 bg-cover bg-center"
+      className="relative w-full  py-16 px-6 lg:px-12 bg-white/70 bg-cover bg-center"
       style={{ backgroundImage: "url('/assets/experience.png')" }}
     >
-      <div className="max-w-7xl mx-auto grid gap-8">
+      <div className="max-w-7xl container mx-auto grid gap-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {cards.slice(0, 2).map((card, index) => (
             <div
               key={index}
-              className="relative rounded-5xl overflow-hidden shadow-lg h-80"
+              className="relative rounded-4xl overflow-hidden shadow-lg h-80"
             >
               <img
                 src={card.image}
@@ -86,14 +86,13 @@ const Experiences: React.FC = () => {
           {cards.slice(2).map((card, index) => (
             <div
               key={index}
-              className="relative rounded-5xl overflow-hidden shadow-lg h-[30rem]"
+              className="relative rounded-4xl overflow-hidden shadow-lg h-[30rem]"
             >
               <img
                 src={card.image}
                 alt={card.title}
                 className="absolute inset-0 rounded-5xl w-full h-full object-cover"
               />
-              {/* <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" /> */}
               <div className="absolute bottom-0 p-6 text-white">
                 <h3 className="text-lg font-semibold mb-2">{card.title}</h3>
                 <p className="text-sm mb-3 opacity-90">{card.description}</p>

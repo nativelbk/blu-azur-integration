@@ -46,7 +46,7 @@ const Activites: React.FC = () => {
           idyllique pour la détente et l’aventure.
         </p>
 
-        <div className="flex flex-wrap justify-between gap-8 md:gap-12">
+        <div className="flex flex-wrap justify-between gap-8 md:gap-12 max-md:justify-center ">
           {items.map((item, idx) => (
             <div
               key={idx}
