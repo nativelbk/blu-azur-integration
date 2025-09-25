@@ -1,5 +1,6 @@
 import { CircleChevronRight } from "lucide-react";
 import React from "react";
+import { AnimatedText } from "../AnimatedText/AnimatedText";
 
 const Reservation: React.FC = () => {
   return (
@@ -11,17 +12,18 @@ const Reservation: React.FC = () => {
         <img className="h-full" src="/assets/rectangle.png" />
       </div>
       <div className="relative h-[70vh] container flex items-center justify-center text-center text-white">
-        {/* <img
-          src="/reservation-bg.jpg"
-          alt="Piscine Blu Azur"
-          className="absolute inset-0 w-full h-full object-cover"
-        /> */}
-
         <div className="relative text-shadow-lg flex flex-col justify-center items-center  z-10 max-w-2xl mx-auto px-6">
-          <h2 className="text-3xl lg:text-6xl font-bold text-shadow-lg mb-4">
-            Réservations
-          </h2>
-          <p className="mb-6 text-base text-shadow-lg lg:text-xl leading-relaxed">
+          <AnimatedText isVisible={true} delay={0}>
+            <h2 className="text-3xl lg:text-6xl font-bold text-shadow-lg mb-4">
+              Réservations
+            </h2>
+          </AnimatedText>
+          <p
+            style={{
+              fontSize: "larger",
+            }}
+            className="mb-6 text-base text-shadow-lg lg:text-xl leading-relaxed"
+          >
             <strong>Offrez-vous un séjour inoubliable</strong> dans l’un de nos
             appartements Blu Azur. Profitez d’un cadre exceptionnel, entre
             confort, détente et découvertes, au cœur de Saint-Raphaël.

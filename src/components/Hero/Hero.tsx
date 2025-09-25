@@ -24,11 +24,7 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="w-3/4 lg:w-1/2 xl:w-1/3 flex justify-center lg:justify-end order-1 lg:order-2 mb-4 lg:mb-0">
-        <Carousel
-          images={images}
-          heightClass="h-[250px] max-w-[450px] " //xs:h-52 sm:h-64 md:h-72 lg:h-80 xl:h-96
-          // customImageClass="w-full max-w-xs xs:max-w-sm sm:max-w-md md:max-w-lg  lg:max-w-xl xl:max-w-2xl h-48 xs:h-52 sm:h-64 md:h-72 lg:h-80 xl:h-96 object-cover rounded-3xl shadow-lg"
-        />
+        <Carousel images={images} heightClass="h-[250px] max-w-[450px] " />
       </div>
     </section>
   );
