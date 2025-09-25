@@ -29,6 +29,11 @@ button:hover {
   box-sizing: border-box;
 }
 
+p,
+span {
+  font-size: medium;
+}
+
 @media screen and (max-width: 1540px) {
   .full-width {
     width: 100%;

@@ -21,7 +21,12 @@ const Reservation: React.FC = () => {
           <h2 className="text-3xl lg:text-6xl font-bold text-shadow-lg mb-4">
             Réservations
           </h2>
-          <p className="mb-6 text-base text-shadow-lg lg:text-xl leading-relaxed">
+          <p
+            style={{
+              fontSize: "larger",
+            }}
+            className="mb-6 text-base text-shadow-lg lg:text-xl leading-relaxed"
+          >
             <strong>Offrez-vous un séjour inoubliable</strong> dans l’un de nos
             appartements Blu Azur. Profitez d’un cadre exceptionnel, entre
             confort, détente et découvertes, au cœur de Saint-Raphaël.

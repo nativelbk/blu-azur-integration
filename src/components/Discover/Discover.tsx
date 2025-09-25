@@ -18,9 +18,9 @@ const Discover: React.FC = () => {
         </div>
 
         <div className="text-white lg:w-1/2 ">
-          <h2 className="text-3xl max-lg:text-center lg:text-5xl font-light lg:text-right  mb-4">
+          <h2 className="text-3xl max-lg:text-center lg:text-5xl leading-snug  font-light lg:text-right  mb-4">
             Un point de départ idéal pour &nbsp;
-            <span className=" font-semibold ">découvrir la Côte d’Azur !</span>
+            <pre className=" font-semibold ">découvrir la Côte d’Azur !</pre>
           </h2>
           <p className="max-lg:text-lg lg:text-lg text-justify leading-relaxed font-semibold opacity-90">
             Entre mer et montagne, Saint-Raphaël est une destination idéale pour

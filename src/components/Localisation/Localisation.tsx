@@ -12,7 +12,7 @@ const Localisation: React.FC = () => {
         <div className=" flex flex-col xl:w-1/2 max-xl:items-center max-lg:w-full max-xl:w-[75%]">
           <h2 className="text-3xl md lg:text-5xl max-xl:text-center  xl:text-6xl font-light text-black-title leading-snug">
             Où se trouve Blu Azur à <br />
-            <span className="font-bold">Saint-Raphaël ?</span>
+            <pre className="font-bold">Saint-Raphaël ?</pre>
           </h2>
           <p className="mt-4 text-black-text text-lg text-justify font-semibold leading-relaxed">
             Blu Azur est idéalement située entre Saint-Tropez et Cannes, au cœur
@@ -27,7 +27,7 @@ const Localisation: React.FC = () => {
             journée.
           </p>
 
-          <button className="mt-6 px-6 py-4 border-2 text-lg border-blue w-1/2 flex max-sm:w-3/4 justify-around items-center text-blue font-semibold rounded-full hover:text-white transition">
+          <button className="mt-6 px-6 py-4 border-2 text-lg border-blue w-1/2 flex max-sm:w-3/4 justify-around items-center text-blue font-semibold rounded-full transition">
             Comment s’y rendre ? <CircleChevronRight color="#4097ff" />
           </button>
         </div>

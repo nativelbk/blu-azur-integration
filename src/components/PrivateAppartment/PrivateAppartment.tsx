@@ -30,7 +30,7 @@ const PrivateAppartment: React.FC = () => {
     "
         >
           Le confort et la sérénité d'un <br />
-          <span className="font-bold">appartement privé</span>
+          <pre className="font-bold">appartement privé</pre>
         </h2>
 
         <p

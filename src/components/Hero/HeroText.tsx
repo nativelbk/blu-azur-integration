@@ -6,14 +6,12 @@ const HeroText: React.FC = () => {
     <div className="flex flex-col gap-8 lg:gap-18 text-white text-center lg:text-left">
       <div className="flex flex-col gap-4 lg:gap-4">
         <h2 className="text-4xl lg:text-6xl mb-4 lg:mb-4">
-          <span className="font-bold text-4xl lg:text-6xl block mb-2 lg:mb-0">
+          <pre className="font-bold text-4xl lg:text-6xl block mb-2 lg:mb-0">
             Votre évasion
-          </span>
-          <span className="text-5xl lg:text-7xl block">
-            sur la Côte d'Azur !
-          </span>
+          </pre>
+          <pre className="text-5xl lg:text-7xl block">sur la Côte d'Azur !</pre>
         </h2>
-        <p className="mb-6 text-base lg:text-lg font-[400] max-w-full lg:max-w-lg text-justify lg:text-left leading-relaxed mx-auto lg:mx-0">
+        <p className="mb-6 text-base lg:text-lg font-[400] max-w-full lg:max-w-lg text-justify  leading-relaxed mx-auto lg:mx-0">
           Blu Azur vous invite à découvrir le charme de Saint-Raphaël, une
           destination d'exception nichée entre Cannes et Saint-Tropez. Nos
           appartements tout équipés, situés dans un domaine privé sécurisé,

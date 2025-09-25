@@ -56,7 +56,7 @@ const Experiences: React.FC = () => {
           {cards.slice(0, 2).map((card, index) => (
             <div
               key={index}
-              className="relative rounded-4xl overflow-hidden shadow-lg h-80"
+              className="relative rounded-4xl overflow-hidden shadow-lg h-[30rem]"
             >
               <img
                 src={card.image}

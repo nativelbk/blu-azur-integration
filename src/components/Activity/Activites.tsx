@@ -38,7 +38,7 @@ const Activites: React.FC = () => {
       <div className="relative  container text-center">
         <h2 className="text-3xl md:text-6xl font-light mb-4">
           Saint Raphaël, l’endroit parfait pour <br />
-          <span className="font-semibold">vivre la Côte d’Azur</span>
+          <pre className="font-semibold">vivre la Côte d’Azur</pre>
         </h2>
         <p className="max-w-3xl mx-auto text-sm md:text-lg text-blue-100 leading-relaxed mb-12">
           Avec ses plages dorées, ses 300 jours de soleil et ses calanques
