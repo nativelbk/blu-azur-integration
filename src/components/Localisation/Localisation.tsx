@@ -10,7 +10,7 @@ const Localisation: React.FC = () => {
     >
       <div className="container flex flex-col xl:flex-row items-center justify-between gap-8   bg-cover bg-center">
         <div className=" flex flex-col xl:w-1/2 max-xl:items-center max-lg:w-full max-xl:w-[75%]">
-          <h2 className="text-2xl md lg:text-5xl max-xl:text-center  xl:text-6xl font-light text-black-title leading-snug">
+          <h2 className="text-3xl md lg:text-5xl max-xl:text-center  xl:text-6xl font-light text-black-title leading-snug">
             Où se trouve Blu Azur à <br />
             <span className="font-bold">Saint-Raphaël ?</span>
           </h2>

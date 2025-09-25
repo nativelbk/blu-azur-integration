@@ -18,7 +18,7 @@ const Discover: React.FC = () => {
         </div>
 
         <div className="text-white lg:w-1/2 ">
-          <h2 className="text-5xl max-lg:text-center lg:text-5xl font-light lg:text-right  mb-4">
+          <h2 className="text-3xl max-lg:text-center lg:text-5xl font-light lg:text-right  mb-4">
             Un point de départ idéal pour &nbsp;
             <span className=" font-semibold ">découvrir la Côte d’Azur !</span>
           </h2>
