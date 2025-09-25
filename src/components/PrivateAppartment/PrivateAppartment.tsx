@@ -9,12 +9,12 @@ const IMAGES: ImageItem[] = [
   {
     id: 2,
     alt: "Residence",
-    src: "/assets/residence.png",
+    src: "/assets/salon.png",
   },
   {
     id: 1,
     alt: "Piscine",
-    src: "/assets/piscine.png",
+    src: "/assets/cuisine.png",
   },
 ];
 
