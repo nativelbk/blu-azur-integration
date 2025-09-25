@@ -15,7 +15,7 @@ function App() {
       <Header />
       <PrivateAppartment />
       <Activites />
-      <Localisation />
+      <Localisation isVisible={false} />
       <Discover />
       <Experiences />
       <Reservation />
