@@ -1,5 +1,5 @@
 import React from "react";
-import { ChevronRight } from "lucide-react";
+import { CircleChevronRight } from "lucide-react";
 
 interface NavigationButtonsProps {
   onPrevious: () => void;
@@ -13,9 +13,9 @@ export const NavigationButtons: React.FC<NavigationButtonsProps> = ({
     <>
       <button
         onClick={onNext}
-        className="absolute top-1/2 right-1 sm:right-2 transform -translate-y-1/2 bg-black/50 text-white p-1.5 sm:p-2 rounded-full hover:bg-black/70 transition-colors z-30"
+        className="absolute top-1/2 right-1 sm:right-2 shadow-2xl transform -translate-y-1/2  text-white p-1.5 sm:p-2 rounded-full transition-colors z-30"
       >
-        <ChevronRight size={16} className="sm:w-6 sm:h-6" />
+        <CircleChevronRight size={24} className="sm:w-6 sm:h-6" />
       </button>
     </>
   );

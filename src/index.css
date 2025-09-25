@@ -28,6 +28,9 @@ button:hover {
   padding: 40px 68px;
   box-sizing: border-box;
 }
+.pb0 {
+  padding-bottom: 0;
+}
 
 p,
 span {

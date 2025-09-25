@@ -4,14 +4,14 @@ import { Facebook, Youtube, TwitterIcon, Instagram } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="relative ">
+    <header className="relative  ">
       <div className="absolute inset-0 bg-black/70 z-10"></div>
       <div
-        className="relative h-screen max-lg:h-fit bg-cover bg-center"
+        className="relative h-screen max-lg:h-fit flex flex-col justify-between bg-cover bg-center"
         style={{ backgroundImage: "url('/assets/image-background.png')" }}
       >
         <Navbar />
-        <div className="relative z-20">
+        <div className="relative flex-1 flex justify-center items-center z-20">
           <Hero />
         </div>
 
